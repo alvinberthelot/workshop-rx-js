@@ -1,0 +1,8 @@
+.playground {
+  background: whitesmoke;
+  padding: 24px;
+}
+
+.playground > div {
+  padding: 12px;
+}

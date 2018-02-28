@@ -5,13 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/5.5.6/Rx.min.js"></script>
-  <title>RxJS workshop - Exercise 3</title>
+  <link rel="stylesheet" href="index.css">
+  <title>RxJS workshop</title>
 </head>
 
 <body>
   <h1>Exercises</h1>
 
-  <button id="theButton">THE BUTTON</button>
+  <section class="playground">
+    <div>
+      <button id="theButton">THE BUTTON</button>
+    </div>
+    <div>
+      <input type="checkbox" id="theCheckbox"></input>
+      <label for="theCheckbox">THE CHECKBOX</label>
+    </div>
+  </section>
 
   <section>
     <h2>Exercise 1</h2>
@@ -25,6 +34,21 @@
     <p>The operator
       <code>map</code> should help you to log the date each time you click on the button (only) with
       <code>Date.now()</code>.
+    </p>
+  </section>
+
+  <section>
+    <h2>Exercise 3</h2>
+    <p>The operator
+      <code>delay</code> should help you to log the date each time you click on the button (only) with a delay of 2 seconds.
+    </p>
+  </section>
+
+  <section>
+    <h2>Exercise 4</h2>
+    <p>The operator
+      <code>merge</code> should help you to log the date each time you click on the button or the checkbox, but always with a delay of 2 seconds
+      with the button (only).
     </p>
   </section>
 
